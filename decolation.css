@@ -394,14 +394,15 @@ text-decoration: none;
     animation: show-bars 0.5s ease-in-out forwards;
     animation-delay: calc(0.1s * var(--i));
 }
-footer {
-    text-align: center;
-    padding: 20px;
-    background: black
-}
 
 @keyframes show-bars {
     100% {
         transform: translateY(0%);
     }
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: aqua;
+    background: black;
 }
